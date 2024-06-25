@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continue</title>
+
+<style>
+.scrolling__content img{
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+
+.scrolling__content{
+    display: inline-block;
+    animation: scroll 15s linear infinite;
+}
+
+.scrolling__wraper{
+    background-color: darkslateblue;
+    white-space:nowrap
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@keyframes scroll {
+    0%{
+transform: translateX(100%);
+    }
+
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+
+</style>
+
+</head>
+<body>
+    <div class="scrolling__wraper">
+        <div class="scrolling__content">
+            <img src="./scroll imgs/asia1.jpg" width="200px" height="200px" alt="">
+            <img src="./scroll imgs/asia2.jpg" width="200px" alt="" height="200px">
+            <img src="./scroll imgs/asia3.jpg" width="200px" alt="" height="200px">
+            <img src="./scroll imgs/asia4.jpg" width="200px" alt="" height="200px">
+            <img src="./scroll imgs/most1.jpg" width="200px" alt="" height="200px">
+            <img src="./scroll imgs/most2.jpg" width="200px" alt="" height="200px">
+            <img src="./scroll imgs/most3.jpg" width="200px" alt="" height="200px">
+            <img src="./scroll imgs/smw1.jpg" width="200px" alt="" height="200px">
+            <img src="./scroll imgs/smw2.jpg" width="200px" alt="" height="200px">
+            <img src="./scroll imgs/smw3.png" width="200px" alt="" height="200px">
+
+        </div>
+    </div>
+    
+</body>
+</html>
